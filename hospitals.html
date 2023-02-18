@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="hospital-style.css">
+    <title>HealthCare</title>
+  </head>
+  <body>
+<section id="header">
+    <nav class="navbar  ">
+        <div class="container-fluid">
+          <div class="logos">
+              <img src="images/icon.png">
+              <a id="logo" href=home.html>Health Care</a></div>
+         <div class="links">
+          <a  href = "home.html">Home</a>
+          <a class="active" href = "hospitals.html">Hospitals/Clinics</a>
+          <a href = "information.html">Information</a>
+          <a href = "events.html">Events</a>
+         </div>
+      
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+</section> 
+<section id="filter">
+    <div class="filters">
+              <select class="w-full text-left  border rounded py-2 px-1 text-sm text-gray-700 bg-white" name="propertytype"><option value="" selected="selected">-Institution Type-</option><option value="apartment">General Hospitals</option><option value="building">Clinics</option><option value="house">Specialized Hospitals</option><option value="hotel">Dental Clinics</option><option value="office">Addiction Treatment Centers</option><option value="land">Mental Health Centers</option><option value="shop">Orthopedic centers</option><option value="store">Clinical Labratories</option><option value="school">Health Offices</option></select>          
+            <select id="city" class="w-full text-left border rounded py-2 px-1 text-sm text-gray-700 bg-white" name="city"><option value="" selected="selected">- City -</option><option value="addis-ababa">Addis Ababa</option><option value="alemgena">Alemgena</option><option value="alemtena">Alemtena</option><option value="ambo">Ambo</option><option value="arba minch">Arba Minch</option><option value="awasa">Awasa</option><option value="barhirdar">Barhirdar</option><option value="burayu">Burayu</option><option value="debre brhan">Debre Brhan</option><option value="debre markos">Debre Markos</option><option value="debre zeit/ bishoftu">Debre zeit/ Bishoftu</option><option value="dese">Dese</option><option value="dire-dawa">Dire Dawa</option><option value="dukem">Dukem</option><option value="gambella">Gambella</option><option value="gelan">Gelan</option><option value="gonder">Gonder</option><option value="harar">Harar</option><option value="hawasa">Hawasa</option><option value="langano">Langano</option><option value="legetafo">Legetafo</option><option value="mekelle">Mekelle</option><option value="mizan teferi">Mizan Teferi</option><option value="modjo">Modjo</option><option value="nazret/ adama">Nazret/ Adama</option><option value="nekemt">Nekemt</option><option value="sebeta">Sebeta</option><option value="sendafa">Sendafa</option><option value="shashemene">Shashemene</option><option value="sululta">Sululta</option><option value="zeway">Zeway</option></select>   
+            <select id="subcity" class="w-full border rounded py-2 px-1 text-sm text-gray-700 bg-white" name="subcity"><option value="" selected="selected">- Sub City -</option><option value="bole">Bole</option><option value="sabian">Sabian</option><option value="addisu gebeya">Addisu Gebeya</option><option value="addis michael">Addis Michael</option><option value="afinchober">Afinchober</option><option value="akaki">Akaki</option><option value="akim ginbata">Akim Ginbata</option><option value="alem bank">Alem Bank</option><option value="amest kilo">Amest Kilo</option><option value="arada">Arada</option><option value="arat kilo">Arat Kilo</option><option value="asko">Asko</option><option value="atobis tera">Atobis Tera</option><option value="aware">Aware</option><option value="ayat">Ayat</option><option value="ayer tena">Ayer Tena</option><option value="bella">Bella</option><option value="betel">Betel</option><option value="bherawi">Bherawi</option><option value="bisrate gerbiel ( old airport)">Bisrate Gerbiel ( Old Airport)</option><option value="bole michael">Bole Michael</option><option value="bole bulbula">Bole Bulbula</option><option value="cmc">CMC</option><option value="ferensay legasion">Ferensay Legasion</option><option value="gerji">Gerji</option><option value="gola sefer">Gola Sefer</option><option value="goro">Goro</option><option value="gurd shola">Gurd Shola</option><option value="hayahulet">Hayahulet</option><option value="imperiel">Imperiel</option><option value="intoto">Intoto</option><option value="jacros">Jacros</option><option value="jan meda">Jan Meda</option><option value="jemo">Jemo</option><option value="kality">Kality</option><option value="kazanchis">Kazanchis</option><option value="kebena">Kebena</option><option value="kechene">Kechene</option><option value="kera">Kera</option><option value="Kirkos">Kirkos</option><option value="kolfe">Kolfe</option><option value="kotebe">Kotebe</option><option value="lafto">Lafto</option><option value="lancha">Lancha</option><option value="lebu">Lebu</option><option value="legetafo">Legetafo</option><option value="lemhotel">Lemhotel</option><option value="medhanealem">Medhanealem</option><option value="megenagna">Megenagna</option><option value="mekasnisa">Mekasnisa</option><option value="mene">Mene</option><option value="merkato">Merkato</option><option value="masalemiya">Masalemiya</option><option value="meskel flower">Meskel Flower</option><option value="meskel square">Meskel Square</option><option value="mexico">Mexico</option><option value="old airport">Old Airport</option><option value="olompia">Olompia</option><option value="paster">Paster</option><option value="piazza">Piazza</option><option value="rufael">Rufael</option><option value="bole ruwanda">Bole Ruwanda</option><option value="sarbet">Sarbet</option><option value="saris">Saris</option><option value="sidist kilo">Sidist Kilo</option><option value="semen hotel">Semen Hotel</option><option value="semen mazegaja">Semen Mazegaja</option><option value="shegole">Shegole</option><option value="shola">Shola</option><option value="shiromeda">Shiromeda</option><option value="shola gebeya">Shola Gebeya</option><option value="stadium">Stadium</option><option value="summit">Summit</option><option value="Tor Hailoch">Tor Hailoch</option><option value="ureal">Ureal</option><option value="winget">Winget</option><option value="wolo sefer">Wolo Sefer</option><option value="wuhalimat">Wuhalimat</option><option value="yerer">Yerer</option><option value="zenebework">Zenebework</option><option value="tulu dimtu">Tulu Dimtu</option><option value="wesen">Wesen</option><option value="cmc figa">CMC Figa</option><option value="Alert Hospital | አለርት ሆስፒታል">Alert Hospital | አለርት ሆስፒታል</option><option value="fm radio">FM Radio</option><option value="figa-gurd shola">Figa-Gurd Shola</option><option value="global hotel">Global Hotel</option><option value="lamberet">Lamberet</option><option value="hayahulet - signal">Hayahulet - Signal</option><option value="yeka abadu">Yeka Abadu</option><option value="bole arabsa">Bole Arabsa</option><option value="bole atlas">Bole Atlas</option><option value="megenagna-shola">Megenagna-Shola</option><option value="kidanemihret-02">Kidanemihret-02</option><option value="kebena-signal">Kebena-Signal</option><option value="old market area">Old Market area</option><option value="kality- gelan">Kality- Gelan</option><option value="enderasi-kazanchis">Enderasi-Kazanchis</option><option value="kality-gabriel">Kality-Gabriel</option><option value="bale sefer">Bale Sefer</option><option value="Summit sunrise real-state">Summit Sunrise real-state</option><option value="kuye-feche">Kuye-Feche</option><option value="entoto road">Entoto Road</option><option value="ayat 49">Ayat 49</option><option value="summit 72">Summit 72</option><option value="sebena-sanford school">Kebena-Sanford School</option><option value="kebena-adewa">Kebena-Adewa</option><option value="gerj-imperiel">Gerj-Imperiel</option><option value="mekanisa-german square">Mekanisa-German Square</option><option value="haile garment">Haile Garment</option><option value="kebena-british embassy">Kebena-British Embassy</option><option value="bole ministeroch">Bole Ministeroch</option><option value="gofa">Gofa</option><option value="gofa meberathaile">Gofa Meberathaile</option></select>   
+            <button id="btnfilter" name="btnFilter">Filter</button>
+    </div>
+</section>
+
+<section class="hospitals">
+    <h2>Nearby Institutions</h2>
+    <div class="hospital">
+       <img src="/Front-end/images/instagram.png">
+
+    </div>
+</section>
+
+
+
+</body>
+</html>
