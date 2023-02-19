@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
   body{
-    background-color: #D3EEF0;
+    background-color: #c6dcff;
     font-family: 'Lato', sans-serif;
   }
   .nav-scroller {
@@ -10,7 +10,7 @@
     overflow-y: hidden;
   }
 .navbar{
-    background-color: #D3EEF0 ;
+    background-color: #c6dcff ;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
 }
   .nav-scroller .nav {
@@ -48,20 +48,20 @@
     align-items: center;
 }
   a:hover,a.active{
-    color: #47B5FF;
+    color: #1D1CE5;
   }
 
 .active::after{
     content: "";
     width:100%;
     height:0.1em;
-    background-color: #47B5FF ;
+    background-color: #1D1CE5 ;
     position:absolute;
     bottom: -4px;
     left: 0px;
 }
 #btn{
-    border: #47B5FF 2px solid;
+    border: rgba(70, 73, 255,0.5) 2px solid;
     color: black;
     font-weight: 400;
     background-color: white;
@@ -74,7 +74,7 @@
 }
 #btn:hover{
     color:white;
-    background-color: #47B5FF;
+    background-color: rgba(196, 122, 255,0.5);
 }
 select{
     margin-right:10px;
@@ -100,7 +100,7 @@ select{
 
 }
 #service{
-  background-color: #47B5FF;
+  background-color: rgba(121, 120, 255,0.6);
   color: white;
   width: 200px;
   height:200px;
@@ -108,7 +108,7 @@ select{
   font-weight: 300;
   font-size: large;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px #47B5FF;
+  box-shadow: 0px 5px 15px rgba(121, 120, 255,1);
   padding-left: 5px
 }
 h3{
@@ -116,14 +116,12 @@ h3{
 }
 #service:hover{
   cursor:pointer;
-  box-shadow: 0.5px 1px 5px 0px #47B5FF;
+  box-shadow: 0.5px 1px 5px 0px rgba(127, 126, 255,1);
   transform:translateY(-5px);
   transition: transform 170ms;
   
 }
-
-
- .about-us{
+.about-us{
   display: inline-table;
       width: 30rem;
       text-align: center;
@@ -132,8 +130,8 @@ h3{
           display: inline-table;
           width: 25rem;
           text-align: center;
-      text-align: left;
-    }
+      /* text-align: left; */
+   }
   .newsletter {
               display: inline-table;
               width: 25rem;
@@ -146,9 +144,9 @@ h3{
   }
  .footer {
               padding: 20px 0;
-              background-color: #66949E;
+              background-color: #4649ff;
   }
   .socials{
       width: 30px;
     }
-  
+
