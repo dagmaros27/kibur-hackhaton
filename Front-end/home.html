@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="home-style.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>ጤና አዳም</title>
+</head>
+
+<body>
+  <section id="header">
+    <nav class="navbar  ">
+      <div class="container-fluid">
+        <div class="logos">
+          <img src="images/logo.png">
+          <a id="logo" href=home.html>ጤና አዳም</a>
+        </div>
+        <div class="links">
+          <a class="active" href="home.html">Home</a>
+          <a href="hospitals.html">Health Centres</a>
+          <a href="information.html">Information</a>
+          <a href="events.html">Events</a>
+        </div>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+
+  </section>
+
+  <section class="hero">
+    <div class="heros">
+      <div class="hero-text">
+        <h1 id="hero">Making health care better together</h1>
+        <p id="hero-text">Lorem ipsum sit amet consectetur adipiscing elit.<br> Vivamus et erat in lacus convallis
+          sodales.</p>
+        <btn id="btn"> Get Started</btn>
+      </div>
+      <img id="doc" src="./images/doc.png">
+    </div>
+    <div class="services">
+      <div id="service">
+        <h3>Information </h3>
+        <p>Get trending health related informations and explore more information based on categories</p>
+
+      </div>
+      <div id="service">
+        <h3>Health care Monitoring</h3>
+        <p>Health care service providers can monitor their patients through us.</p>
+      </div>
+      <div id="service">
+        <h3>Health Centres</h3>
+        <p>Doctors can give appointments and monitor their patients remotely. Health centers can also post their events
+          and training programs</p>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <footer>
+      <div class="footer">
+        <div class="about-us">
+          <h2>About Us</h2>
+          <p class="social">TENA-DAM is an innovative and comprehensive offering designed to facilitate healthcare
+            services. It provides access to
+            health related informations and allow users to get medical treatments remotely.</p>
+        </div>
+        <div class="linksfooter">
+          <h2>Quick Links</h2>
+          <ul>
+            <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a><br>
+            <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Information</a><br>
+            <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Hospitals</a><br>
+            <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Events</a><br>
+            <a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Register</a>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h2>Newsletter</h2>
+          <p>subscribe to our newsletter to get allour news in your inbox</p>
+          <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+            <input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
+              onblur="this.placeholder = 'Your email address'" required="" type="email">
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright-content">
+        <ul>
+          <a href=""><img class="socials" src="images/cancelicon.png"></a>
+          <a href=""><img class="socials" src="images/instagram.png"></a>
+          <a href=""><img class="socials" src="images/linkedin.png"></a>
+          <a href=""><img class="socials" src="images/mail.png"></a>
+          <a href=""><img class="socials" src="images/linkedin.png"></a>
+        </ul>
+        <p>© Copyright 2018 | All Rights Reserved by <a href="" target="_blank">MoH Ethiopia</a> </p>
+      </div>
+
+    </footer>
+  </section>
+  <script>
+    var dis = document.getElementById('btn');
+    dis.addEventListener("click", function () { location.replace("login.html") }, false)
+  </script>
+</body>
+
+</html>

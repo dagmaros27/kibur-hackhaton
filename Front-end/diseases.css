@@ -1,0 +1,51 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+body {
+  background-color: #d3eef0;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.disease-posts {
+    width: 95%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.dis-post {
+    display: inline-table;
+    width: 25rem;
+    text-align: left;
+    background-color: white;
+    margin: 10px;
+    /* border: rgb(10, 109, 202) 1px solid; */
+    border-radius: 0px;
+    box-shadow: 0 0 10px #777777;}
+
+.disimg {
+    width: 25rem;
+    height: 10rem;
+}
+
+.dis-head-text {
+    padding-left:  10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dis-tail-text {
+padding-left: 10px;
+}
+
+.cat:hover {
+    box-shadow: 0 0 10px #777777;
+}
+
+
+
+.more {
+    width: 25%;
+    margin: 0 auto ;
+    padding-bottom:  20px;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+body {
+  background-color: #d3eef0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #E9C891;
+  font-family: "calibri";
+}
+.nav-right {
+  margin-left: auto;
+  font-size: 20px;
+}
+.nav-element {
+  border-right: 1px solid #fff;
+}
+.men-photo {
+  width: 30%;
+  height: 50%;
+  float: left;
+  margin: 5%;
+}
+.history {
+  margin: 5%;
+  padding-top: 5%;
+  font-size: 25px;
+}
+#photos {
+  text-align: center;
+  padding: 5% 15%;
+}
+.image {
+
+}
+legend {
+    font-size: 50px;
+}
+.carou-photo {
+  background-color: #FFC286;
+
+}
+.men-1 {
+  padding: 10% 0;
+}
+.men-2 {
+  padding: 0 15%;
+}
+.men-3 {
+  padding: 7% 0;
+}
+.men-4 {
+  padding: 0 25%;
+}
+.contact {
+  background-color: #94B49F;
+  text-align: center;
+  height: 200px;
+  padding: 50px;
+}
+.contacts {
+  margin: 20px;
+}
+/* login */
